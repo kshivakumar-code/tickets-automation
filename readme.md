@@ -1,15 +1,6 @@
-![Please Favourite This Project Before Reading (1)](https://github.com/shivamguys/irctc-cypress-automation/assets/25263989/1fe791dc-d320-42dd-99c9-d33fd034525b)
-
 # IRCTC Tatkal Cypress Automation !
 
 ### Now book your tatkal tickets under 1 min at ease by bypassing captcha and filling multiple passenger details at once. Let the script book it for you.
-
-🙏😍👏🙏😍🙏👏🙏😍🙏👏🙏😍🙏😍🙏👏🔥👍🔥👍🔥👍🔥
-## 🎉🎉🎉🎉🎉🎉 Thanks for the appreciation guys, much appreciated. 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
-
-![image](https://github.com/user-attachments/assets/8a1c8320-7389-4d91-bc8d-6886e6487017)
-![Tatkal_Appreciation](https://github.com/user-attachments/assets/8d167d29-8b24-461e-9ff3-a8b7df5a2883)
-
 
 > [!NOTE] 
 > ```
