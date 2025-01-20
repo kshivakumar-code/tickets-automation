@@ -12,6 +12,7 @@ reader = easyocr.Reader(["en"], model_storage_directory="./EasyOCR")
 # Initialize Flask app
 app = Flask(__name__)
 
+
 def extract_text_from_image(base64_image):
   try:
     # Convert the base64 image to bytes
@@ -38,7 +39,9 @@ def extract_text_from_image(base64_image):
 def extract_text():
   # Get the base64 image from the request
   data = request.get_json()
+  #print("Debug#####", data)
   base64_image = data.get("image", "")
+  #print("debug#######", base64_image)
 
   if not base64_image:
     return jsonify({"error": "No base64 image string provided"}), 400
@@ -63,8 +66,8 @@ if __name__ == "__main__":
   parser.add_argument(
       "--port",
       type=int,
-      default=5000,
-      help="Port to run the server on (default: 5000)",
+      default=5001,
+      help="Port to run the server on (default: 5001)",
   )
   args = parser.parse_args()
 

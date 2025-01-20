@@ -62,7 +62,7 @@ function performLogin(LOGGED_IN) {
                         // API call to retrieve captcha value
                         cy.request({
                             method: "POST",
-                            url: "http://localhost:5000/extract-text", // URL of the Flask server endpoint
+                            url: "http://localhost:5001/extract-text", // URL of the Flask server endpoint
                             body: {
                                 image: value, // Assuming `value` is your base64 image string
                             },
@@ -144,7 +144,7 @@ function solveCaptcha() {
                     // Use the local server to solve the captcha
                     cy.request({
                         method: "POST",
-                        url: "http://localhost:5000/extract-text", // URL of the Flask server endpoint
+                        url: "http://localhost:5001/extract-text", // URL of the Flask server endpoint
                         body: {
                             image: value, // Assuming `value` is your base64 image string
                         },
