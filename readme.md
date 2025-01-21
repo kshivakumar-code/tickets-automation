@@ -19,11 +19,6 @@
 > activities.
 > ```
 
-### Watch the simple recording here....
-####  [Watch the video here](https://i.imgur.com/3U8yKmb.mp4)
-
-[![](https://imgur.com/0xFTYhk.png)](https://i.imgur.com/3U8yKmb.mp4)
-
 
 
 
